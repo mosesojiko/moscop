@@ -1,0 +1,31 @@
+// user register constants
+export const USER_REGISTER_REQUEST = "USER_REGISTER_REQUEST";
+export const USER_REGISTER_SUCCESS = "USER_REGISTER_SUCCESS";
+export const USER_REGISTER_FAIL = "USER_REGISTER_FAIL";
+
+
+//user login constatnts
+export const USER_LOGIN_REQUEST = "USER_LOGIN_REQUEST";
+export const USER_LOGIN_SUCCESS = "USER_LOGIN_SUCCESS";
+export const USER_LOGIN_FAIL = "USER_LOGIN_FAIL";
+
+//user logout constant
+export const USER_LOGOUT = "USER_LOGOUT";
+
+//constants for profile details
+export const USER_DETAILS_REQUEST = "USER_DETAILS_REQUEST";
+export const USER_DETAILS_SUCCESS = "USER_DETAILS_SUCCESS";
+export const USER_DETAILS_FAIL = "USER_DETAILS_FAIL";
+
+//constants to update user profile
+export const USER_UPDATE_PROFILE_REQUEST = 'USER_UPDATE_PROFILE_REQUEST';
+export const USER_UPDATE_PROFILE_SUCCESS = 'USER_UPDATE_PROFILE_SUCCESS';
+export const USER_UPDATE_PROFILE_FAIL = 'USER_UPDATE_PROFILE_FAIL';
+export const USER_UPDATE_PROFILE_RESET = 'USER_UPDATE_PROFILE_RESET';
+
+//constants to update a user when he creates a store
+export const USER_CREATE_STORE_REQUEST="USER_CREATE_STORE_REQUEST";
+export const USER_CREATE_STORE_SUCCESS="USER_CREATE_STORE_SUCCESS";
+export const USER_CREATE_STORE_FAIL="USER_CREATE_STORE_FAIL";
+export const USER_CREATE_STORE_RESET="USER_CREATE_STORE_RESET";
+

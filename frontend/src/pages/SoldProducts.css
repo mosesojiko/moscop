@@ -1,0 +1,95 @@
+.withdrawal-information {
+    background-color: #fff8dc;
+    width: 100%;
+    max-width: 90%;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  
+  .sold-item-header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .withdrawal-information>ul {
+    width: 100%;
+    max-width: 95%;
+  }
+  
+  .withdrawal-information>ul>li {
+    list-style-type: disc;
+    width: 100%;
+    max-width: 90%;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .withdrawal-notice {
+    width: 100%;
+    max-width: 95%;
+    font-size: 15px;
+  }
+  
+  .soldproduct-item {
+    margin: 0px;
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .sold-item-header {
+      text-align: left;
+      max-width: 95%;
+      padding: 10px;
+    }
+  
+    .withdrawal-information {
+      max-width: 95%;
+      padding: 5px;
+      margin-left: 0px;
+    }
+  
+    .withdrawal-notice {
+      max-width: 85%;
+    }
+  }
+  
+  /* 
+  
+  .withdrawal-information{
+      display:flex;
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  .withdrawal-information-one {
+      margin: 5px;
+      text-align: center;
+      width: 50%;
+      
+  }
+  
+  .withdrawal-information-two {
+      width: 50%;
+      background-color: #f5f5f5;
+      padding: 10px;
+  }
+  .withdrawal-information-two > ul{
+      width: 100%;
+  }
+  .withdrawal-information-two > ul > li {
+      max-width: 100%;
+  }
+  
+  @media screen and (max-width: 600px) {
+      .withdrawal-information {
+          display: flex;
+          flex-direction: column;
+      }
+      .withdrawal-information-one {
+          width: 100%;
+          max-width: 100%;
+      }
+      .withdrawal-information-two {
+          width: 100%;
+          max-width: 100%;
+      }
+  } */
